@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class TouchDrag : MonoBehaviour
 {
-    
+    [SerializeField]
+    private float elapsed = 0f;
+    [SerializeField]
+    private float WaitTime = 1.5f;
+
     private Rigidbody2D rb;
     public float speed = 10f;
+    public GameObject Pet;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        var PetColour = Pet.GetComponent<SpriteRenderer>();
+        PetColour.material.SetColor("_Color", Color.red);
     }
 
     // Update is called once per frame
@@ -27,6 +34,29 @@ public class TouchDrag : MonoBehaviour
             if (touch1.phase == TouchPhase.Ended)
                 rb.velocity = Vector2.zero;
             
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Pet"))
+        {
+         
+            elapsed += Time.fixedDeltaTime;
+            if (elapsed > WaitTime)
+            {
+                var PetColour = Pet.GetComponent<SpriteRenderer>();
+                PetColour.material.SetColor("_Color", Color.blue);
+            }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Pet"))
+        {
+            elapsed = 0;
+            var PetColour = Pet.GetComponent<SpriteRenderer>();
+            PetColour.material.SetColor("_Color", Color.red);
         }
     }
 }
