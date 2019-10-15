@@ -19,6 +19,11 @@ public class DropdownTime : MonoBehaviour
         PlayerPrefs.SetInt("TimeKey", Time.value);
         switch (PlayerPrefs.GetInt("TimeKey"))
         {
+            case 0:
+                {
+                    text.text = "";
+                    break;
+                }
             case 1:
                 {
                     text.text = "notification time is 08:00";

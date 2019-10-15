@@ -18,6 +18,11 @@ public class DropdownDosage : MonoBehaviour
         PlayerPrefs.SetInt("DosageKey", Dosage.value);
         switch (PlayerPrefs.GetInt("DosageKey"))
         {
+            case 0:
+                {
+                    text.text = "";
+                    break;
+                }
             case 1:
                 {
                     text.text = "prescription is " + Dosage.value;
