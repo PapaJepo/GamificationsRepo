@@ -469,6 +469,7 @@ GameObject:
   - component: {fileID: 1541682223}
   - component: {fileID: 1541682222}
   - component: {fileID: 1541682221}
+  - component: {fileID: 1541682224}
   m_Layer: 0
   m_Name: PetPlaceholder
   m_TagString: Pet
@@ -564,6 +565,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1541682224
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541682220}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f4cb251d98ecfb41ac0867fd7ee21c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1544564913
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elapsed: 0
   WaitTime: 1.5
+  PetAnim: {fileID: 1541682224}
   speed: 25
   Pet: {fileID: 1541682220}
 --- !u!1 &1953097482

@@ -9,12 +9,15 @@ public class TouchDrag : MonoBehaviour
     [SerializeField]
     private float WaitTime = 1.5f;
 
+    public Animator PetAnim;
+
     private Rigidbody2D rb;
     public float speed = 10f;
     public GameObject Pet;
     // Start is called before the first frame update
     void Start()
     {
+        PetAnim = Pet.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         var PetColour = Pet.GetComponent<SpriteRenderer>();
        // PetColour.material.SetColor("_Color", Color.red);
@@ -46,7 +49,8 @@ public class TouchDrag : MonoBehaviour
             if (elapsed > WaitTime)
             {
                 var PetColour = Pet.GetComponent<SpriteRenderer>();
-                PetColour.material.SetColor("_Color", Color.blue);
+                //PetColour.material.SetColor("_Color", Color.blue);
+                PetAnim.SetTrigger("Brush");
             }
         }
     }
