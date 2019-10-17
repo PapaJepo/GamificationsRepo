@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class DosageJournal : MonoBehaviour
 {
     private int DosageIndex;
-    public Text JournalText;
 
+    public Text ScrollText;
     public string[] DosageArray;
 
     [SerializeField]
@@ -26,22 +26,25 @@ public class DosageJournal : MonoBehaviour
         }
         for (int i = 0; i < DosageIndex; i++)
         {
-
+            
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
+            DosageTime[i] = DosageArray[i];
+            ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n";
         }
+
 
         // JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
     }
 
     void Update()
     {
-       
+ 
         for (int i = 0; i < DosageIndex; i++)
         {
 
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
+            //DosageTime[i] = DosageArray[i];
         }
-   
     }
 
     public void DosageTaken()
@@ -50,10 +53,11 @@ public class DosageJournal : MonoBehaviour
         
         DosageArray[DosageIndex] = System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss");
         PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
+        ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n";
         //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
         //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
         //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
-
+        
         DosageIndex++;
         PlayerPrefs.SetInt("JournalKey", DosageIndex);
 
