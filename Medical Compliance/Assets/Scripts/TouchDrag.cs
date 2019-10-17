@@ -17,7 +17,7 @@ public class TouchDrag : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         var PetColour = Pet.GetComponent<SpriteRenderer>();
-        PetColour.material.SetColor("_Color", Color.red);
+       // PetColour.material.SetColor("_Color", Color.red);
     }
 
     // Update is called once per frame
@@ -56,7 +56,7 @@ public class TouchDrag : MonoBehaviour
         {
             elapsed = 0;
             var PetColour = Pet.GetComponent<SpriteRenderer>();
-            PetColour.material.SetColor("_Color", Color.red);
+            //PetColour.material.SetColor("_Color", Color.red);
         }
     }
 }
