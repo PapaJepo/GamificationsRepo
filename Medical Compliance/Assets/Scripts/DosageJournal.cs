@@ -31,7 +31,7 @@ public class DosageJournal : MonoBehaviour
             
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
             DosageTime[i] = DosageArray[i];
-            ScrollText.text = ScrollText.text + "\n Day: " + (i) + "\n" + PlayerPrefs.GetString("TimeList" + i) + "\n" + "Dosage Taken: " + DosageAmount + "\n" + "";
+            ScrollText.text = ScrollText.text + "\n Dosage: " + (i) + "\n" + PlayerPrefs.GetString("TimeList" + i) + "\n" + "Dosage Taken: " + DosageAmount + "\n" + " ";
         }
 
 
@@ -55,11 +55,13 @@ public class DosageJournal : MonoBehaviour
         
         DosageArray[DosageIndex] = System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss");
         PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
-        ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + DosageAmount + "\n" +"";
+        ScrollText.text = ScrollText.text + "\n Dosage: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + DosageAmount + "\n" +" ";
         //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
         //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
         //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
-        
+        int CoinTemp = PlayerPrefs.GetInt("CoinKey");
+        CoinTemp++;
+        PlayerPrefs.SetInt("CoinKey", CoinTemp);
         DosageIndex++;
         PlayerPrefs.SetInt("JournalKey", DosageIndex);
 
@@ -91,6 +93,7 @@ public class DosageJournal : MonoBehaviour
        // PlayerPrefs.SetInt("JournalKey", 0);
         
         PlayerPrefs.SetInt("JournalKey", 0);
+        PlayerPrefs.SetInt("CoinKey", 0);
 
     }
     public void CheckSave()
