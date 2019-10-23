@@ -7,10 +7,14 @@ public class DropdownDosage : MonoBehaviour
 {
     public Text text;
     public Dropdown Dosage;
+    private string textpref;
 
     void Start()
     {
+       
         Dosage.value = PlayerPrefs.GetInt("DosageKey");
+        textpref = PlayerPrefs.GetString("DosageAmountKey");
+
     }
 
     void Update()
@@ -25,17 +29,24 @@ public class DropdownDosage : MonoBehaviour
                 }
             case 1:
                 {
-                    text.text = "prescription is " + Dosage.value;
+                    PlayerPrefs.SetString("DosageAmountKey", "5mg");
+                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+
                     break;
                 }
             case 2:
                 {
-                    text.text = "prescription is " + Dosage.value;
+                    PlayerPrefs.SetString("DosageAmountKey", "10mg");
+                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+
                     break;
                 }
             case 3:
                 {
-                    text.text = "prescription is " + Dosage.value;
+                    PlayerPrefs.SetString("DosageAmountKey", "20mg");
+
+                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+
                     break;
                 }
         }
@@ -45,6 +56,7 @@ public class DropdownDosage : MonoBehaviour
     void OnApplicationQuit()
     {
         PlayerPrefs.SetInt("DosageKey", Dosage.value);
-        //PlayerPrefs.Save("DosageKey");
+
+        PlayerPrefs.Save();
     }
 }

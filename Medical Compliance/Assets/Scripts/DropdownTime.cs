@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DropdownTime : MonoBehaviour
 {
     public Text text;
     public Dropdown Time;
+    public TMPro.TMP_Dropdown TMPdrop;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,7 @@ public class DropdownTime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerPrefs.SetInt("TimeKey", Time.value);
+        PlayerPrefs.SetInt("TimeKey", TMPdrop.value);
         switch (PlayerPrefs.GetInt("TimeKey"))
         {
             case 0:

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DosageJournal : MonoBehaviour
 {
     private int DosageIndex;
-
+    private string DosageAmount;
     public Text ScrollText;
     public string[] DosageArray;
 
@@ -17,7 +17,9 @@ public class DosageJournal : MonoBehaviour
     {
         DosageArray = new string[31];
         DosageIndex = PlayerPrefs.GetInt("JournalKey");
-    
+        DosageAmount = PlayerPrefs.GetString("DosageAmountKey");
+
+
         for (int i = 0; i < DosageIndex; i++)
         {
             DosageTime.Add(PlayerPrefs.GetString("TimeString" + i));
@@ -29,7 +31,7 @@ public class DosageJournal : MonoBehaviour
             
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
             DosageTime[i] = DosageArray[i];
-            ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n";
+            ScrollText.text = ScrollText.text + "\n Day: " + (i) + "\n" + PlayerPrefs.GetString("TimeList" + i) + "\n" + "Dosage Taken: " + DosageAmount + "\n" + "";
         }
 
 
@@ -53,7 +55,7 @@ public class DosageJournal : MonoBehaviour
         
         DosageArray[DosageIndex] = System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss");
         PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
-        ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n";
+        ScrollText.text = ScrollText.text + "Day: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + DosageAmount + "\n" +"";
         //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
         //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
         //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
@@ -78,14 +80,18 @@ public class DosageJournal : MonoBehaviour
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
             PlayerPrefs.SetString("TimeList" + i, DosageArray[i]);
         }
+
+        PlayerPrefs.SetString("DosageAmountKey", DosageAmount);
         // PlayerPrefs.SetInt("JournalKey", DosageIndex);
     }
 
     public void DeleteIndex()
     {
         
+       // PlayerPrefs.SetInt("JournalKey", 0);
+        
         PlayerPrefs.SetInt("JournalKey", 0);
-       
+
     }
     public void CheckSave()
     {
