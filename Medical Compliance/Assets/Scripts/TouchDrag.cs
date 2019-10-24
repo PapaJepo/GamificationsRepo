@@ -12,19 +12,24 @@ public class TouchDrag : MonoBehaviour
     public Animator PetAnim;
     private Collider2D TouchCol;
     private Rigidbody2D rb;
+    private SpriteRenderer Sprite;
     public float speed = 10f;
     public GameObject Pet;
     public GameObject Item;
+    public GameObject Item1;
     private bool itemcheck;
+    private bool itemcheck1;
     // Start is called before the first frame update
     void Start()
     {
+        Sprite = GetComponent<SpriteRenderer>();
         PetAnim = Pet.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         TouchCol = GetComponent<BoxCollider2D>();
         TouchCol.enabled = false;
         var PetColour = Pet.GetComponent<SpriteRenderer>();
-       // PetColour.material.SetColor("_Color", Color.red);
+        // PetColour.material.SetColor("_Color", Color.red);
+        Sprite.enabled = false;
     }
 
     // Update is called once per frame
@@ -32,6 +37,7 @@ public class TouchDrag : MonoBehaviour
     {
         if(Input.touchCount > 0)
         {
+            Sprite.enabled = true;
             Touch touch1 = Input.GetTouch(0);
             Vector3 touch1position = Camera.main.ScreenToWorldPoint(touch1.position);
             touch1position.z = 0;
@@ -45,9 +51,14 @@ public class TouchDrag : MonoBehaviour
             {
                 Item.transform.position = touch1position;
             }
+            if (itemcheck1 == true)
+            {
+                Item1.transform.position = touch1position;
+            }
         }
         else
         {
+            Sprite.enabled = false;
             TouchCol.enabled = false;
         }
     }
@@ -59,6 +70,11 @@ public class TouchDrag : MonoBehaviour
             Debug.Log("itemtouch");
             itemcheck = true;
         }
+        if (collision.CompareTag("Item1"))
+        {
+            Debug.Log("itemtouch");
+            itemcheck1 = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -67,6 +83,11 @@ public class TouchDrag : MonoBehaviour
         {
             Debug.Log("itemtouch");
             itemcheck = false;
+        }
+        if (collision.CompareTag("Item1"))
+        {
+            Debug.Log("itemtouch");
+            itemcheck1 = false;
         }
     }
     /*

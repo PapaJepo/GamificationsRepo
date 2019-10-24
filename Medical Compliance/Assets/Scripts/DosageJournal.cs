@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DosageJournal : MonoBehaviour
 {
     private int DosageIndex;
     private string DosageAmount;
-    public Text ScrollText;
+    // public Text ScrollText;
+    public TMPro.TMP_Text ScrollText;
     public string[] DosageArray;
 
     [SerializeField]
@@ -31,7 +33,7 @@ public class DosageJournal : MonoBehaviour
             
             DosageArray[i] = PlayerPrefs.GetString("TimeList" + i);
             DosageTime[i] = DosageArray[i];
-            ScrollText.text = ScrollText.text + "\n Dosage: " + (i) + "\n" + PlayerPrefs.GetString("TimeList" + i) + "\n" + "Dosage Taken: " + DosageAmount + "\n" + " ";
+            ScrollText.text = ScrollText.text + "\nDosage: " + (i) + "\n" + PlayerPrefs.GetString("TimeList" + i) + "\n" + "Dosage Taken: " + PlayerPrefs.GetString("DosageList" + i) + "\n" + " ";
         }
 
 
@@ -40,7 +42,7 @@ public class DosageJournal : MonoBehaviour
 
     void Update()
     {
- 
+        DosageAmount = PlayerPrefs.GetString("DosageAmountKey");
         for (int i = 0; i < DosageIndex; i++)
         {
 
@@ -55,7 +57,8 @@ public class DosageJournal : MonoBehaviour
         
         DosageArray[DosageIndex] = System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss");
         PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
-        ScrollText.text = ScrollText.text + "\n Dosage: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + DosageAmount + "\n" +" ";
+        PlayerPrefs.SetString("DosageList" + DosageIndex, DosageAmount);
+        ScrollText.text = ScrollText.text + "\nDosage: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + PlayerPrefs.GetString("DosageList" + DosageIndex) + "\n" +" ";
         //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
         //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
         //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);

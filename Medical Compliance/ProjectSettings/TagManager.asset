@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pet
   - Item
+  - Item1
   layers:
   - Default
   - TransparentFX

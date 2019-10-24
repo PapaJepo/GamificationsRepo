@@ -2,29 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DropdownDosage : MonoBehaviour
 {
     public Text text;
-    public Dropdown Dosage;
+  //  public Dropdown Dosage;
+    public TMPro.TMP_Dropdown TMPdrop;
     private string textpref;
 
     void Start()
     {
        
-        Dosage.value = PlayerPrefs.GetInt("DosageKey");
+        TMPdrop.value = PlayerPrefs.GetInt("DosageKey");
         textpref = PlayerPrefs.GetString("DosageAmountKey");
 
     }
 
     void Update()
     {
-        PlayerPrefs.SetInt("DosageKey", Dosage.value);
+        PlayerPrefs.SetInt("DosageKey", TMPdrop.value);
         switch (PlayerPrefs.GetInt("DosageKey"))
         {
             case 0:
                 {
-                    text.text = "";
+                   // text.text = "";
                     break;
                 }
             case 1:
@@ -55,8 +57,8 @@ public class DropdownDosage : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        PlayerPrefs.SetInt("DosageKey", Dosage.value);
-
+        PlayerPrefs.SetInt("DosageKey", TMPdrop.value);
+        
         PlayerPrefs.Save();
     }
 }
