@@ -19,6 +19,17 @@ public class TouchDrag : MonoBehaviour
     public GameObject Item1;
     private bool itemcheck;
     private bool itemcheck1;
+
+
+    public Transform ItemPos;
+    public Transform ItemPos1;
+
+
+
+    public GameObject ItemHolder;
+    public GameObject ItemMenu;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,11 +80,15 @@ public class TouchDrag : MonoBehaviour
         {
             Debug.Log("itemtouch");
             itemcheck = true;
+            ItemHolder.SetActive(false);
+            Item1.SetActive(false);
         }
         if (collision.CompareTag("Item1"))
         {
             Debug.Log("itemtouch");
             itemcheck1 = true;
+            ItemHolder.SetActive(false);
+            Item.SetActive(false);
         }
     }
 
@@ -83,11 +98,21 @@ public class TouchDrag : MonoBehaviour
         {
             Debug.Log("itemtouch");
             itemcheck = false;
+            Item1.SetActive(true);
+            ItemHolder.SetActive(true);
+            ItemMenu.SetActive(false);
+            Item.transform.position = ItemPos.transform.position;
+            Item1.transform.position = ItemPos1.transform.position;
         }
         if (collision.CompareTag("Item1"))
         {
             Debug.Log("itemtouch");
             itemcheck1 = false;
+            Item.SetActive(true);
+            ItemHolder.SetActive(true);
+            ItemMenu.SetActive(false);
+            Item.transform.position = ItemPos.transform.position;
+            Item1.transform.position = ItemPos1.transform.position;
         }
     }
     /*
