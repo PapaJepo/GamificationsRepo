@@ -7,6 +7,8 @@ TagManager:
   - Pet
   - Item
   - Item1
+  - Ground
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Ground
   - 
   - 
   - 

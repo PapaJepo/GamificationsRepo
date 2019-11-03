@@ -63,7 +63,7 @@ public class DosageJournal : MonoBehaviour
         //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
         //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
         int CoinTemp = PlayerPrefs.GetInt("CoinKey");
-        CoinTemp++;
+        CoinTemp += 10;
         PlayerPrefs.SetInt("CoinKey", CoinTemp);
         DosageIndex++;
         PlayerPrefs.SetInt("JournalKey", DosageIndex);
