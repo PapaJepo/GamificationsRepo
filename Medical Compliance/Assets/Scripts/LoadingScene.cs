@@ -24,7 +24,7 @@ public class LoadingScene : MonoBehaviour
 
     IEnumerator Load()
     {
-        async = SceneManager.LoadSceneAsync(2);
+        async = SceneManager.LoadSceneAsync(3);
         async.allowSceneActivation = false;
 
         while (async.isDone == false)

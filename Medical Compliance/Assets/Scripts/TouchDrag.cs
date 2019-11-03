@@ -33,6 +33,7 @@ public class TouchDrag : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         Sprite = GetComponent<SpriteRenderer>();
         PetAnim = Pet.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();

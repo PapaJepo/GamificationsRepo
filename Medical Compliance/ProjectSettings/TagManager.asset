@@ -9,6 +9,7 @@ TagManager:
   - Item1
   - Ground
   - Coin
+  - FallDetector
   layers:
   - Default
   - TransparentFX
