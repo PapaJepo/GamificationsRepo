@@ -89,7 +89,7 @@ public class DosageJournal : MonoBehaviour
         PlayerPrefs.SetString("DosageAmountKey", DosageAmount);
         // PlayerPrefs.SetInt("JournalKey", DosageIndex);
     }
-
+    /*
     public void DeleteIndex()
     {
         
@@ -99,6 +99,13 @@ public class DosageJournal : MonoBehaviour
         PlayerPrefs.SetInt("CoinKey", 0);
 
     }
+
+    public void DeleteGameStart()
+    {
+        PlayerPrefs.SetInt("GameStartKey", 0);
+
+    }
+    */
     public void CheckSave()
     {
         Debug.Log("------------------------------------------------");
