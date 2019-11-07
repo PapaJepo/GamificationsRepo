@@ -947,7 +947,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Congratulations on completeting your meditation
+  m_text: Congratulations on completing your meditation
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e8ff71d041c14ad40a9ea77f77bf17ac, type: 2}
   m_sharedMaterial: {fileID: 2421987128722702347, guid: e8ff71d041c14ad40a9ea77f77bf17ac,
@@ -2707,7 +2707,7 @@ MonoBehaviour:
   angle: 0
   Minutes: {fileID: 1596022743}
   FinishPanel: {fileID: 1916354123}
-  timer: 5
+  timer: 10
 --- !u!212 &1527698202
 SpriteRenderer:
   m_ObjectHideFlags: 0
