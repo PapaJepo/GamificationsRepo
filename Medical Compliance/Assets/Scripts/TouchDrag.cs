@@ -153,8 +153,8 @@ public class TouchDrag : MonoBehaviour
         if (collision.CompareTag("Item2"))
         {
             itemcheck2 = false;
-           // Item.SetActive(true);
-           // Item1.SetActive(true);
+            Item.SetActive(true);
+           Item1.SetActive(true);
             //
             ItemHolder.SetActive(true);
             ItemMenu.SetActive(false);
