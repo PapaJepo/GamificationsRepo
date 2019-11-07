@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GameStart);
+       // Debug.Log(GameStart);
     }
 
     public void LoadMenu()
@@ -45,7 +45,7 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    public void LoadRun()
+    public void LoadMed()
     {
         SceneManager.LoadScene(2);
     }

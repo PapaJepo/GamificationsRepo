@@ -6,9 +6,15 @@ using TMPro;
 
 public class Currency : MonoBehaviour
 {
+    [Header("Currency")]
     public TMPro.TMP_Text CoinTest;
-    [SerializeField]
-    private int CoinAmount;
+    [SerializeField] private int CoinAmount;
+
+    [Header("Item1")]
+    [SerializeField] TMPro.TMP_Text Item1Text;
+    [SerializeField] GameObject Item1Button;
+    private int Item1Save;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +25,12 @@ public class Currency : MonoBehaviour
     void Update()
     {
         CoinTest.text = "" + CoinAmount;
+
+        if(PlayerPrefs.GetInt("ItemKey1")>0)
+        {
+            Item1Button.GetComponent<Button>().enabled = !true;
+            Item1Text.text = "Purchased";
+        }
     }
 
     private void OnApplicationQuit()
@@ -31,6 +43,9 @@ public class Currency : MonoBehaviour
         if (CoinAmount > 0)
         {
             CoinAmount = CoinAmount - 1;
+            Item1Save++;
+            PlayerPrefs.SetInt("ItemKey1", Item1Save);
+
         }
         
     }

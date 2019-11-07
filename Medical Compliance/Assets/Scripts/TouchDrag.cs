@@ -4,28 +4,38 @@ using UnityEngine;
 
 public class TouchDrag : MonoBehaviour
 {
+    [Header("Touch Timer")]
     [SerializeField]
     private float elapsed = 0f;
     [SerializeField]
     private float WaitTime = 1.5f;
 
-    public Animator PetAnim;
+    [Header("Touch Controls")]
     private Collider2D TouchCol;
     private Rigidbody2D rb;
     private SpriteRenderer Sprite;
     public float speed = 10f;
+
+    [Header("Pet")]
     public GameObject Pet;
+    public Animator PetAnim;
+
+    [Header("Interactable Items")]
     public GameObject Item;
     public GameObject Item1;
+    public GameObject Item2;
+
     private bool itemcheck;
     private bool itemcheck1;
+    private bool itemcheck2;
 
 
     public Transform ItemPos;
     public Transform ItemPos1;
+    public Transform ItemPos2;
 
 
-
+    [Header("Item Menus")]
     public GameObject ItemHolder;
     public GameObject ItemMenu;
 
@@ -67,6 +77,10 @@ public class TouchDrag : MonoBehaviour
             {
                 Item1.transform.position = touch1position;
             }
+            if (itemcheck2 == true)
+            {
+                Item2.transform.position = touch1position;
+            }
         }
         else
         {
@@ -83,37 +97,71 @@ public class TouchDrag : MonoBehaviour
             itemcheck = true;
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
+            Item2.SetActive(false);
         }
         if (collision.CompareTag("Item1"))
         {
             Debug.Log("itemtouch");
             itemcheck1 = true;
             ItemHolder.SetActive(false);
+           Item.SetActive(false);
+            Item2.SetActive(false);
+        }
+        if (collision.CompareTag("Item2"))
+        {
+            Debug.Log("itemtouch");
+            itemcheck2 = true;
+            ItemHolder.SetActive(false);
+            Item1.SetActive(false);
             Item.SetActive(false);
         }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Item"))
         {
-            Debug.Log("itemtouch");
             itemcheck = false;
             Item1.SetActive(true);
+            if(PlayerPrefs.GetInt("ItemKey1") > 0)
+            {
+                Item2.SetActive(true);
+            }
+            //
             ItemHolder.SetActive(true);
             ItemMenu.SetActive(false);
+            //
             Item.transform.position = ItemPos.transform.position;
-            Item1.transform.position = ItemPos1.transform.position;
+          //  Item1.transform.position = ItemPos1.transform.position;
         }
         if (collision.CompareTag("Item1"))
         {
-            Debug.Log("itemtouch");
             itemcheck1 = false;
             Item.SetActive(true);
+            if (PlayerPrefs.GetInt("ItemKey1") > 0)
+            {
+                Item2.SetActive(true);
+            }
+            //
             ItemHolder.SetActive(true);
             ItemMenu.SetActive(false);
-            Item.transform.position = ItemPos.transform.position;
+            //
+            //Item.transform.position = ItemPos.transform.position;
             Item1.transform.position = ItemPos1.transform.position;
+        }
+        if (collision.CompareTag("Item2"))
+        {
+            itemcheck2 = false;
+           // Item.SetActive(true);
+           // Item1.SetActive(true);
+            //
+            ItemHolder.SetActive(true);
+            ItemMenu.SetActive(false);
+            //
+            //Item.transform.position = ItemPos.transform.position;
+            //Item1.transform.position = ItemPos1.transform.position;
+            Item2.transform.position = ItemPos2.transform.position;
         }
     }
     /*
