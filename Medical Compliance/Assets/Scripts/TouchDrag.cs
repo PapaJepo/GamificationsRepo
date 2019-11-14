@@ -19,6 +19,11 @@ public class TouchDrag : MonoBehaviour
     [Header("Pet")]
     public GameObject Pet;
     public Animator PetAnim;
+    public GameObject PetTrigger;
+
+    [Header("Item Animator")]
+    public Animator TreatController;
+    
 
     [Header("Interactable Items")]
     public GameObject Item;
@@ -38,6 +43,8 @@ public class TouchDrag : MonoBehaviour
     [Header("Item Menus")]
     public GameObject ItemHolder;
     public GameObject ItemMenu;
+    public GameObject ItemButton;
+    public GameObject Item1Button;
 
 
     // Start is called before the first frame update
@@ -46,6 +53,7 @@ public class TouchDrag : MonoBehaviour
         Time.timeScale = 1f;
         Sprite = GetComponent<SpriteRenderer>();
         PetAnim = Pet.GetComponent<Animator>();
+        //ItemAnim = ItemController.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         TouchCol = GetComponent<BoxCollider2D>();
         TouchCol.enabled = false;
@@ -87,6 +95,26 @@ public class TouchDrag : MonoBehaviour
             Sprite.enabled = false;
             TouchCol.enabled = false;
         }
+
+
+        ////////////////////////////////////////////////////
+        ///
+        if (PetTrigger.GetComponent<Dog>().Treat == true)
+        {
+            //elapsed += Time.fixedDeltaTime;
+            TreatController.SetTrigger("Treat");
+            PetAnim.SetBool("Eating", true);
+
+        }
+
+
+
+        // elapsed = 0;
+        else if (PetTrigger.GetComponent<Dog>().Treat == false)
+        {
+            PetAnim.SetBool("Eating", false);
+            //elapsed = 0;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -95,14 +123,18 @@ public class TouchDrag : MonoBehaviour
         {
             Debug.Log("itemtouch");
             itemcheck = true;
+            Pet.SetActive(true);
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
             Item2.SetActive(false);
+
+
         }
         if (collision.CompareTag("Item1"))
         {
             Debug.Log("itemtouch");
             itemcheck1 = true;
+            Pet.SetActive(true);
             ItemHolder.SetActive(false);
            Item.SetActive(false);
             Item2.SetActive(false);
@@ -111,6 +143,7 @@ public class TouchDrag : MonoBehaviour
         {
             Debug.Log("itemtouch");
             itemcheck2 = true;
+            Pet.SetActive(true);
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
             Item.SetActive(false);
@@ -122,6 +155,7 @@ public class TouchDrag : MonoBehaviour
     {
         if (collision.CompareTag("Item"))
         {
+            //Pet.SetActive(false);
             itemcheck = false;
             Item1.SetActive(true);
             if(PlayerPrefs.GetInt("ItemKey1") > 0)
@@ -133,10 +167,16 @@ public class TouchDrag : MonoBehaviour
             ItemMenu.SetActive(false);
             //
             Item.transform.position = ItemPos.transform.position;
-          //  Item1.transform.position = ItemPos1.transform.position;
+            //  Item1.transform.position = ItemPos1.transform.position;
+
+
+            ItemButton.SetActive(true);
+            Item1Button.SetActive(false);
+
         }
         if (collision.CompareTag("Item1"))
         {
+            //Pet.SetActive(false);
             itemcheck1 = false;
             Item.SetActive(true);
             if (PlayerPrefs.GetInt("ItemKey1") > 0)
@@ -149,9 +189,13 @@ public class TouchDrag : MonoBehaviour
             //
             //Item.transform.position = ItemPos.transform.position;
             Item1.transform.position = ItemPos1.transform.position;
+
+            ItemButton.SetActive(true);
+            Item1Button.SetActive(false);
         }
         if (collision.CompareTag("Item2"))
         {
+           // Pet.SetActive(false);
             itemcheck2 = false;
             Item.SetActive(true);
            Item1.SetActive(true);
@@ -162,23 +206,30 @@ public class TouchDrag : MonoBehaviour
             //Item.transform.position = ItemPos.transform.position;
             //Item1.transform.position = ItemPos1.transform.position;
             Item2.transform.position = ItemPos2.transform.position;
+
+            ItemButton.SetActive(true);
+            Item1Button.SetActive(false);
         }
+
+
+        ////////////////////
+        
+
     }
-    /*
+    
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.CompareTag("Pet"))
-        {
-         
-            elapsed += Time.fixedDeltaTime;
-            if (elapsed > WaitTime)
-            {
-                var PetColour = Pet.GetComponent<SpriteRenderer>();
-                //PetColour.material.SetColor("_Color", Color.blue);
-                PetAnim.SetTrigger("Brush");
-            }
-        }
+        
+      
+          
+        
     }
+
+    public void StopEating()
+    {
+
+    }
+    /*
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Pet"))
