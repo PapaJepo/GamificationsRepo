@@ -71,6 +71,7 @@ public class MeditationCircle : MonoBehaviour
                 notification.FireTime = System.DateTime.Now.AddSeconds(timer);
 
                 identifier = AndroidNotificationCenter.SendNotification(notification, "channel_id");
+                
             }
            
             //
