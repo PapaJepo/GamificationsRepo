@@ -52,7 +52,7 @@ public class MeditationCircle : MonoBehaviour
     {
         var notification = new AndroidNotification();
         notification.Title = "Meditation";
-        notification.Text = "You finished your meditation congrats!";
+        notification.Text = "You and " + PlayerPrefs.GetString("NameKey") + " finished your meditation congrats!";
 
 
         //var identifier = 1;
