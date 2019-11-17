@@ -46,6 +46,8 @@ public class TouchDrag : MonoBehaviour
     public GameObject ItemButton;
     public GameObject Item1Button;
 
+    [SerializeField] GameObject Meditation;
+
 
     // Start is called before the first frame update
     void Start()
@@ -128,7 +130,7 @@ public class TouchDrag : MonoBehaviour
             Item1.SetActive(false);
             Item2.SetActive(false);
 
-
+            Meditation.SetActive(true);
         }
         if (collision.CompareTag("Item1"))
         {
@@ -138,6 +140,8 @@ public class TouchDrag : MonoBehaviour
             ItemHolder.SetActive(false);
            Item.SetActive(false);
             Item2.SetActive(false);
+
+            Meditation.SetActive(true);
         }
         if (collision.CompareTag("Item2"))
         {
@@ -147,6 +151,8 @@ public class TouchDrag : MonoBehaviour
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
             Item.SetActive(false);
+
+            Meditation.SetActive(true);
         }
 
     }
