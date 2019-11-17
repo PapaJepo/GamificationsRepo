@@ -15,12 +15,22 @@ public class DosageJournal : MonoBehaviour
     [SerializeField]
     private List<string> DosageTime = new List<string>();
 
+
+
+    int Day;
+    int Month;
+    int CurrentDay;
+
     void Start()
     {
         DosageArray = new string[31];
         DosageIndex = PlayerPrefs.GetInt("JournalKey");
         DosageAmount = PlayerPrefs.GetString("DosageAmountKey");
-
+        Day = PlayerPrefs.GetInt("CurrentDayKey");
+        Debug.Log(Day);
+        Debug.Log("DosageIndex: " + DosageIndex);
+        Month = PlayerPrefs.GetInt("CurrentMonthKey");
+        CurrentDay = PlayerPrefs.GetInt("DosageDay");
 
         for (int i = 0; i < DosageIndex; i++)
         {
@@ -56,20 +66,65 @@ public class DosageJournal : MonoBehaviour
         Debug.Log("------------------------------------------------");
         
         DosageArray[DosageIndex] = System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss");
-        PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
-        PlayerPrefs.SetString("DosageList" + DosageIndex, DosageAmount);
-        ScrollText.text = ScrollText.text + "\nDosage: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: "  + PlayerPrefs.GetString("DosageList" + DosageIndex) + "\n" +" ";
-        //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
-        //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
-        //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
-        int CoinTemp = PlayerPrefs.GetInt("CoinKey");
-        CoinTemp += 10;
-        PlayerPrefs.SetInt("CoinKey", CoinTemp);
-        DosageIndex++;
-        PlayerPrefs.SetInt("JournalKey", DosageIndex);
+        
+       // Day = (int)System.DateTime.Now.Day;
+       // Month = (int)System.DateTime.Now.Month;
 
-        Debug.Log("DosageTaken");
+       
 
+        if(DosageIndex == 0)
+        {
+            Day = (int)System.DateTime.Now.Day;
+            Month = (int)System.DateTime.Now.Month;
+            PlayerPrefs.SetInt("CurrentDayKey", Day);
+            PlayerPrefs.SetInt("CurrentMonthKey", Month);
+
+            //if(PlayerPrefs.GetInt("CurrentDayKey") > )
+        }
+
+        if((int)System.DateTime.Now.Month > PlayerPrefs.GetInt("CurrentMonthKey"))
+        {
+            PlayerPrefs.SetInt("CurrentDayKey", Day);
+            PlayerPrefs.SetInt("CurrentMonthKey", Month);
+        }
+
+        if ((int)System.DateTime.Now.Day > PlayerPrefs.GetInt("CurrentDayKey"))
+
+
+        if (Day == PlayerPrefs.GetInt("CurrentDayKey") && Month == PlayerPrefs.GetInt("CurrentMonthKey"))
+        {
+            CurrentDay = 1;
+        }
+
+
+        // Debug.Log(test);
+        if ((int)System.DateTime.Now.Day > PlayerPrefs.GetInt("CurrentDayKey") || DosageIndex == 0)
+        {
+            PlayerPrefs.SetString("TimeList" + DosageIndex, DosageArray[DosageIndex]);
+            PlayerPrefs.SetString("DosageList" + DosageIndex, DosageAmount);
+            ScrollText.text = ScrollText.text + "\nDosage: " + (DosageIndex) + "\n" + PlayerPrefs.GetString("TimeList" + DosageIndex) + "\n" + "Dosage Taken: " + PlayerPrefs.GetString("DosageList" + DosageIndex) + "\n" + " ";
+            //DosageTime.Add(System.DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss"));
+            //PlayerPrefs.SetString("TimeList" + DosageIndex, DosageTime[DosageIndex]);
+            //JournalText.text = PlayerPrefs.GetString("TimeList" + DosageIndex);
+            int CoinTemp = PlayerPrefs.GetInt("CoinKey");
+            CoinTemp += 10;
+            PlayerPrefs.SetInt("CoinKey", CoinTemp);
+            DosageIndex++;
+            PlayerPrefs.SetInt("JournalKey", DosageIndex);
+
+            Debug.Log("DosageTaken");
+            /////////////////////////////////
+            ///
+           // Day++; 
+            PlayerPrefs.SetInt("CurrentDayKey", (int)System.DateTime.Now.Day);
+            //PlayerPrefs.SetInt("CurrentMonthKey", Month+1);
+            CurrentDay = 0;
+        }
+        else 
+        {
+            Debug.Log("Dosage taken take another day");
+           //Debug.Log(PlayerPrefs.GetInt("DosageDay"));
+        }
     }
 
     void OnApplicationQuit()
@@ -87,6 +142,10 @@ public class DosageJournal : MonoBehaviour
         }
 
         PlayerPrefs.SetString("DosageAmountKey", DosageAmount);
+        PlayerPrefs.SetInt("CurrentDayKey", Day);
+        PlayerPrefs.SetInt("CurrentMonthKey", Month);
+        PlayerPrefs.SetInt("DosageDay",CurrentDay);
+
         // PlayerPrefs.SetInt("JournalKey", DosageIndex);
     }
     /*

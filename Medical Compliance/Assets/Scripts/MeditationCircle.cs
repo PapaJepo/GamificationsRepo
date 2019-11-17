@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Unity.Notifications.Android;
+using UnityEngine.SceneManagement;
+
+
 public class MeditationCircle : MonoBehaviour
 {
 
@@ -137,6 +140,12 @@ public class MeditationCircle : MonoBehaviour
         PlayerPrefs.SetInt("CoinKey", CoinAmount);
         angle = 0f;
         popup = false;
+    }
+
+    public void LoadMenu()
+    {
+        AndroidNotificationCenter.CancelNotification(identifier);
+        SceneManager.LoadScene(1);
     }
 
 

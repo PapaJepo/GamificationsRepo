@@ -22,6 +22,7 @@ public class DeleteScript : MonoBehaviour
 
         PlayerPrefs.SetInt("JournalKey", 0);
         PlayerPrefs.SetInt("CoinKey", 0);
+        PlayerPrefs.SetInt("CurrentDayKey", (int)System.DateTime.Now.Day);
 
     }
 
