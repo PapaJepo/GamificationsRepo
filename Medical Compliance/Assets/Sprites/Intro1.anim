@@ -18171,7 +18171,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 2.35
-    functionName: SpawnUI
+    functionName: 
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

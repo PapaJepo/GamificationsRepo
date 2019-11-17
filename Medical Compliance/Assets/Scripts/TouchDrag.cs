@@ -244,6 +244,11 @@ public class TouchDrag : MonoBehaviour
     {
 
     }
+
+    public void MenuOpen()
+    {
+        TreatController.SetTrigger("Idle");
+    }
     /*
     private void OnTriggerExit2D(Collider2D collision)
     {

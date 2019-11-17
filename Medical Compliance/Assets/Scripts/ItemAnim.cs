@@ -23,6 +23,6 @@ public class ItemAnim : MonoBehaviour
     {
         Treat.SetActive(false);
         Treat.SetActive(true);
-        MeditationButton.SetActive(true);
+        //MeditationButton.SetActive(true);
     }
 }
