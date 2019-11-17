@@ -2271,7 +2271,7 @@ GameObject:
   - component: {fileID: 497596826}
   - component: {fileID: 497596831}
   m_Layer: 0
-  m_Name: brush (1)
+  m_Name: Treat
   m_TagString: Item1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2445,6 +2445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TreatController: {fileID: 0}
   Treat: {fileID: 497596825}
+  MeditationButton: {fileID: 158726977}
 --- !u!1 &506788861
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,7 +5967,7 @@ MonoBehaviour:
   ItemMenu: {fileID: 1245175234}
   ItemButton: {fileID: 537398368}
   Item1Button: {fileID: 484026033}
-  Meditation: {fileID: 0}
+  Meditation: {fileID: 158726977}
 --- !u!1 &1835981299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,6 +7540,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6490087213333913521, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
+        type: 3}
+      propertyPath: UI
+      value: 
+      objectReference: {fileID: 261309491}
     - target: {fileID: 6490087214316219344, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
         type: 3}
       propertyPath: m_RootOrder

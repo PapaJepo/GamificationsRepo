@@ -50,6 +50,8 @@ public class TouchDrag : MonoBehaviour
 
 
     // Start is called before the first frame update
+
+        
     void Start()
     {
         Time.timeScale = 1f;
@@ -105,19 +107,24 @@ public class TouchDrag : MonoBehaviour
         ///
         if (PetTrigger.GetComponent<Dog>().Treat == true)
         {
-            //elapsed += Time.fixedDeltaTime;
-            TreatController.SetTrigger("Treat");
-            PetAnim.SetBool("Eating", true);
+
+            elapsed += Time.fixedDeltaTime;
+            if(elapsed>.8)
+            {
+                TreatController.SetTrigger("Treat");
+                PetAnim.SetBool("Eating", true);
+            }
+          
 
         }
 
 
 
-        // elapsed = 0;
+        //elapsed = 0;
         else if (PetTrigger.GetComponent<Dog>().Treat == false)
         {
             PetAnim.SetBool("Eating", false);
-            //elapsed = 0;
+            elapsed = 0;
         }
     }
 

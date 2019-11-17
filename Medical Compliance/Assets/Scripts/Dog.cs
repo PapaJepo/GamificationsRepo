@@ -9,16 +9,23 @@ public class Dog : MonoBehaviour
 
     public bool Treat;
 
+    [SerializeField] GameObject UI;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        UI.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
        
+    }
+
+    public void SpawnUI()
+    {
+        UI.SetActive(true);
     }
 
     private void OnTriggerStay2D(Collider2D collision)
