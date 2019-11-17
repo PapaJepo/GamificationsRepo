@@ -1898,7 +1898,7 @@ Transform:
   - {fileID: 279646263}
   - {fileID: 1751600435}
   m_Father: {fileID: 6490087213752409517}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &473889058
 GameObject:
@@ -5966,6 +5966,7 @@ MonoBehaviour:
   ItemMenu: {fileID: 1245175234}
   ItemButton: {fileID: 537398368}
   Item1Button: {fileID: 484026033}
+  Meditation: {fileID: 0}
 --- !u!1 &1835981299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7537,6 +7538,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490087214316219344, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490087212728916170, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490087214245585264, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490087214266234375, guid: 25fd736aaa4035645bbc9b3fe5be9d08,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25fd736aaa4035645bbc9b3fe5be9d08, type: 3}

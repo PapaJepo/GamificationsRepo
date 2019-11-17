@@ -62,6 +62,8 @@ public class TouchDrag : MonoBehaviour
         var PetColour = Pet.GetComponent<SpriteRenderer>();
         // PetColour.material.SetColor("_Color", Color.red);
         Sprite.enabled = false;
+
+        PetAnim.SetTrigger("Start");
     }
 
     // Update is called once per frame
