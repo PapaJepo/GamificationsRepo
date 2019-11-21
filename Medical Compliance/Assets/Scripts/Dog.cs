@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Dog : MonoBehaviour
 {
     [SerializeField]
     private float elapsed = 0f;
 
     public bool Treat;
+    [SerializeField] GameObject ButtonScript;
 
     [SerializeField] GameObject UI;
 
@@ -27,6 +28,20 @@ public class Dog : MonoBehaviour
     {
         UI.SetActive(true);
     }
+    public void HideUI()
+    {
+        UI.SetActive(false);
+
+    }
+    public void ActiveButton()
+    {
+        ButtonScript.GetComponent<Button>().enabled = true;
+    }
+    public void INActiveButton()
+    {
+        ButtonScript.GetComponent<Button>().enabled = false;
+    }
+
 
     private void OnTriggerStay2D(Collider2D collision)
     {

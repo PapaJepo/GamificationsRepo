@@ -51,7 +51,8 @@ public class TouchDrag : MonoBehaviour
 
     // Start is called before the first frame update
 
-        
+    private float introelapsed = 0f;
+
     void Start()
     {
         Time.timeScale = 1f;
@@ -66,12 +67,21 @@ public class TouchDrag : MonoBehaviour
         Sprite.enabled = false;
 
         PetAnim.SetTrigger("Start");
+        //PetAnim.SetBool("Intro",true);
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.touchCount > 0)
+        
+       /* introelapsed += Time.deltaTime;
+        if (introelapsed > 2.35)
+        {
+            PetAnim.SetBool("Intro", false);
+        }*/
+
+        if (Input.touchCount > 0)
         {
             Sprite.enabled = true;
             Touch touch1 = Input.GetTouch(0);
@@ -247,7 +257,7 @@ public class TouchDrag : MonoBehaviour
 
     public void MenuOpen()
     {
-        TreatController.SetTrigger("Idle");
+        PetAnim.SetTrigger("Idle");
     }
     /*
     private void OnTriggerExit2D(Collider2D collision)
