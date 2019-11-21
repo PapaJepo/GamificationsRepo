@@ -48,7 +48,7 @@ public class TouchDrag : MonoBehaviour
 
     [SerializeField] GameObject Meditation;
 
-
+    [SerializeField] GameObject ItemMenuText;
     // Start is called before the first frame update
 
     private float introelapsed = 0f;
@@ -149,6 +149,8 @@ public class TouchDrag : MonoBehaviour
             Item1.SetActive(false);
             Item2.SetActive(false);
 
+            ItemMenuText.SetActive(false);
+
             Meditation.SetActive(true);
         }
         if (collision.CompareTag("Item1"))
@@ -160,6 +162,9 @@ public class TouchDrag : MonoBehaviour
            Item.SetActive(false);
             Item2.SetActive(false);
 
+            ItemMenuText.SetActive(false);
+
+
             Meditation.SetActive(true);
         }
         if (collision.CompareTag("Item2"))
@@ -170,6 +175,9 @@ public class TouchDrag : MonoBehaviour
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
             Item.SetActive(false);
+
+            ItemMenuText.SetActive(false);
+
 
             Meditation.SetActive(true);
         }
@@ -198,6 +206,9 @@ public class TouchDrag : MonoBehaviour
             ItemButton.SetActive(true);
             Item1Button.SetActive(false);
 
+
+            ItemMenuText.SetActive(true);
+
         }
         if (collision.CompareTag("Item1"))
         {
@@ -217,6 +228,9 @@ public class TouchDrag : MonoBehaviour
 
             ItemButton.SetActive(true);
             Item1Button.SetActive(false);
+
+            ItemMenuText.SetActive(true);
+
         }
         if (collision.CompareTag("Item2"))
         {
@@ -234,11 +248,14 @@ public class TouchDrag : MonoBehaviour
 
             ItemButton.SetActive(true);
             Item1Button.SetActive(false);
+
+            ItemMenuText.SetActive(true);
+
         }
 
 
         ////////////////////
-        
+
 
     }
     
