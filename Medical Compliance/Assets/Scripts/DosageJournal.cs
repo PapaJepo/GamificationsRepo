@@ -15,7 +15,7 @@ public class DosageJournal : MonoBehaviour
     [SerializeField]
     private List<string> DosageTime = new List<string>();
 
-
+    [SerializeField] GameObject PopUpTaken, PopUpCooldown;
 
     int Day;
     int Month;
@@ -119,9 +119,11 @@ public class DosageJournal : MonoBehaviour
             PlayerPrefs.SetInt("CurrentDayKey", (int)System.DateTime.Now.Day);
             //PlayerPrefs.SetInt("CurrentMonthKey", Month+1);
             CurrentDay = 0;
+            PopUpTaken.SetActive(true);
         }
         else 
         {
+            PopUpCooldown.SetActive(true);
             Debug.Log("Dosage taken take another day");
            //Debug.Log(PlayerPrefs.GetInt("DosageDay"));
         }
