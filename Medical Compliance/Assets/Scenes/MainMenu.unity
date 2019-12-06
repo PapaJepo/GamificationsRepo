@@ -1431,9 +1431,7 @@ MonoBehaviour:
   m_text: 'Thanks for taking your dosage
 
 
-    You''ve earned ____
-
-    coins
+    You''ve earned 1 coin
 
 '
   m_isRightToLeft: 0

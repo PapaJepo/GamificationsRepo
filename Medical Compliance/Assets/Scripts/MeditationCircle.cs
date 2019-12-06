@@ -9,6 +9,9 @@ using UnityEngine.SceneManagement;
 public class MeditationCircle : MonoBehaviour
 {
 
+    [SerializeField] TMPro.TMP_Dropdown TMPdrop;
+    [SerializeField] TMPro.TMP_Text MeditationQuote;
+
     [SerializeField]
     Transform rotationCenter;
 
@@ -26,7 +29,7 @@ public class MeditationCircle : MonoBehaviour
     private bool popup = true;
     private float temptime;
 
-
+    private int once = 0;
     private int identifier;
 
     [SerializeField] float timer = 20;
@@ -88,7 +91,50 @@ public class MeditationCircle : MonoBehaviour
         else
         {
             Minutes.text = "00:00:000";
-          
+            
+            //once += 1;
+            if (once == 0)
+            {
+                int RandomQuote = Random.Range(1, 7);
+
+                switch (RandomQuote)
+                {
+                    case 1:
+                        MeditationQuote.text = "The present moment is filled with happiness. If you are attentive you will see it. - Thich Nhat Hanh";
+                        break;
+                    case 2:
+                        MeditationQuote.text = "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill";
+                        break;
+                    case 3:
+                        MeditationQuote.text = "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar";
+                        break;
+                    case 4:
+                        MeditationQuote.text = "I cant change the direction of the wind, but i can adjust my sails to always reach my destination. - Jimmy Dean";
+                        break;
+                    case 5:
+                        MeditationQuote.text = "Life is like riding a bicycle. To keep your balance, you must keep moving. - Albert Einstein";
+                        break;
+                    case 6:
+                        MeditationQuote.text = "You are never too old to set another goal or to dream a new dream. - C.S.Lewis";
+                        break;
+                    case 7:
+                        MeditationQuote.text = "";
+                        break;
+                    case 8:
+                        MeditationQuote.text = "";
+                        break;
+                    case 9:
+                        MeditationQuote.text = "";
+                        break;
+                    case 10:
+                        MeditationQuote.text = "";
+                        break;
+                }
+
+                once += 1;
+            }
+            
+
             FinishPanel.SetActive(popup);
          
         }
@@ -118,6 +164,21 @@ public class MeditationCircle : MonoBehaviour
     public void Play()
     {
       
+        switch(TMPdrop.value)
+        {
+            case 0:
+                timer = 180;
+                break;
+
+            case 1:
+                timer = 360;
+                break;
+
+            case 2:
+                timer = 540;
+                break;
+        }
+
         play = true;
         if(timer<=0)
         {
