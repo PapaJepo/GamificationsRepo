@@ -49,7 +49,20 @@ public class MeditationCircle : MonoBehaviour
             Description = "Generic notifications",
         };
         AndroidNotificationCenter.RegisterNotificationChannel(c);
-        
+        switch (TMPdrop.value)
+        {
+            case 0:
+                timer = 180;
+                break;
+
+            case 1:
+                timer = 360;
+                break;
+
+            case 2:
+                timer = 540;
+                break;
+        }
     }
 
 
@@ -164,20 +177,7 @@ public class MeditationCircle : MonoBehaviour
     public void Play()
     {
       
-        switch(TMPdrop.value)
-        {
-            case 0:
-                timer = 180;
-                break;
-
-            case 1:
-                timer = 360;
-                break;
-
-            case 2:
-                timer = 540;
-                break;
-        }
+       
 
         play = true;
         if(timer<=0)
