@@ -6,11 +6,11 @@ public class AudioController : MonoBehaviour
 {
     [SerializeField]
     AudioSource ButtonPress;
-    AudioSource Transition;
-    AudioSource BGM;
-    AudioSource Meditation;
-    AudioSource Purchase;
-    AudioSource Click;
+    [SerializeField] AudioSource Transition;
+    [SerializeField] AudioSource BGM;
+    [SerializeField] AudioSource Meditation;
+    [SerializeField] AudioSource Purchase;
+    [SerializeField] AudioSource Click;
     // Start is called before the first frame update
     void Start()
     {

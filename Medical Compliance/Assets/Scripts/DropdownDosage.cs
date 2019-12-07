@@ -6,7 +6,7 @@ using TMPro;
 
 public class DropdownDosage : MonoBehaviour
 {
-    public Text text;
+    //public Text text;
   //  public Dropdown Dosage;
     public TMPro.TMP_Dropdown TMPdrop;
     private string textpref;
@@ -32,14 +32,14 @@ public class DropdownDosage : MonoBehaviour
             case 1:
                 {
                     PlayerPrefs.SetString("DosageAmountKey", "5mg");
-                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+                    //text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
 
                     break;
                 }
             case 2:
                 {
                     PlayerPrefs.SetString("DosageAmountKey", "10mg");
-                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+                    //text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
 
                     break;
                 }
@@ -47,7 +47,7 @@ public class DropdownDosage : MonoBehaviour
                 {
                     PlayerPrefs.SetString("DosageAmountKey", "20mg");
 
-                    text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
+                    //text.text = "prescription is " + PlayerPrefs.GetString("DosageAmountKey"); ;
 
                     break;
                 }

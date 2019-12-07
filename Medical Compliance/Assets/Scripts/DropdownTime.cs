@@ -6,7 +6,7 @@ using TMPro;
 
 public class DropdownTime : MonoBehaviour
 {
-    public Text text;
+   // public Text text;
     public Dropdown Time;
     public TMPro.TMP_Dropdown TMPdrop;
     // Start is called before the first frame update
@@ -23,42 +23,42 @@ public class DropdownTime : MonoBehaviour
         {
             case 0:
                 {
-                    text.text = "";
+                   // text.text = "";
                     break;
                 }
             case 1:
                 {
-                    text.text = "notification time is 08:00";
+                    //text.text = "notification time is 08:00";
                     break;
                 }
             case 2:
                 {
-                    text.text = "notification time is 10:00";
+                    //text.text = "notification time is 10:00";
                     break;
                 }
             case 3:
                 {
-                    text.text = "notification time is 12:00";
+                   // text.text = "notification time is 12:00";
                     break;
                 }
             case 4:
                 {
-                    text.text = "notification time is 14:00";
+                    //text.text = "notification time is 14:00";
                     break;
                 }
             case 5:
                 {
-                    text.text = "notification time is 16:00";
+                    //text.text = "notification time is 16:00";
                     break;
                 }
             case 6:
                 {
-                    text.text = "notification time is 18:00";
+                    //text.text = "notification time is 18:00";
                     break;
                 }
             case 7:
                 {
-                    text.text = "notification time is 20:00";
+                   // text.text = "notification time is 20:00";
                     break;
                 }
         }
