@@ -12,8 +12,12 @@ public class Currency : MonoBehaviour
 
     [Header("Item1")]
     [SerializeField] TMPro.TMP_Text Item1Text;
+    [SerializeField] TMPro.TMP_Text Item2Text;
+    [SerializeField] TMPro.TMP_Text Item3Text;
     [SerializeField] GameObject Item1Button;
-    private int Item1Save;
+    [SerializeField] GameObject Item2Button;
+    [SerializeField] GameObject Item3Button;
+    private int Item1Save,Item2Save,Item3Save;
     
     // Start is called before the first frame update
     void Start()
@@ -31,6 +35,16 @@ public class Currency : MonoBehaviour
             Item1Button.GetComponent<Button>().enabled = !true;
             Item1Text.text = "Purchased";
         }
+        if (PlayerPrefs.GetInt("ItemKey2") > 0)
+        {
+            Item2Button.GetComponent<Button>().enabled = !true;
+            Item2Text.text = "Purchased";
+        }
+        if (PlayerPrefs.GetInt("ItemKey3") > 0)
+        {
+            Item3Button.GetComponent<Button>().enabled = !true;
+            Item3Text.text = "Purchased";
+        }
     }
 
     private void OnApplicationQuit()
@@ -38,7 +52,7 @@ public class Currency : MonoBehaviour
         PlayerPrefs.SetInt("CoinKey", CoinAmount);
     }
 
-    public void Purchase()
+    public void Purchase1()
     {
         if (CoinAmount > 0)
         {
@@ -48,6 +62,29 @@ public class Currency : MonoBehaviour
 
         }
         
+    }
+
+    public void Purchase2()
+    {
+        if (CoinAmount > 0)
+        {
+            CoinAmount = CoinAmount - 1;
+            Item2Save++;
+            PlayerPrefs.SetInt("ItemKey2", Item3Save);
+
+        }
+
+    }
+    public void Purchase3()
+    {
+        if (CoinAmount > 0)
+        {
+            CoinAmount = CoinAmount - 1;
+            Item3Save++;
+            PlayerPrefs.SetInt("ItemKey3", Item3Save);
+
+        }
+
     }
 }
 
