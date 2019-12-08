@@ -10,7 +10,8 @@ public class TouchDrag : MonoBehaviour
     [SerializeField]
     private float elapsed1 = 0f;
     [SerializeField]
-    private float WaitTime = 1.5f;
+    private float elapsed2 = 0f;
+    
 
     [Header("Touch Controls")]
     private Collider2D TouchCol;
@@ -54,7 +55,7 @@ public class TouchDrag : MonoBehaviour
    // [SerializeField] GameObject ItemMenuText;
     // Start is called before the first frame update
 
-    private float introelapsed = 0f;
+    //private float introelapsed = 0f;
 
     void Start()
     {
@@ -165,11 +166,11 @@ public class TouchDrag : MonoBehaviour
             elapsed1 = 0;
         }
 
-       /* if (PetTrigger.GetComponent<Dog>().Pet == true)
+        if (PetTrigger.GetComponent<Dog>().Pet == true)
         {
 
-            elapsed1 += Time.fixedDeltaTime;
-            if (elapsed1 > .85f)
+            elapsed2 += Time.fixedDeltaTime;
+            if (elapsed2 > .9f)
             {
 
                 PetAnim.SetBool("Petting", true);
@@ -184,8 +185,8 @@ public class TouchDrag : MonoBehaviour
         else if (PetTrigger.GetComponent<Dog>().Pet == false)
         {
             PetAnim.SetBool("Petting", false);
-            elapsed1 = 0;
-        }*/
+            elapsed2 = 0;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

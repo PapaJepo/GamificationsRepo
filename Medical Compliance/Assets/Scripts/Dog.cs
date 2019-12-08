@@ -77,11 +77,11 @@ public class Dog : MonoBehaviour
 
         }
 
-       /* else if(collision.CompareTag("Finger") )
+        else if(collision.CompareTag("Finger") )
         {
             Debug.Log("Petting");
             Pet = true;
-        }*/
+        }
      
 
     }
