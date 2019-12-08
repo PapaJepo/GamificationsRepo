@@ -8,6 +8,8 @@ public class TouchDrag : MonoBehaviour
     [SerializeField]
     private float elapsed = 0f;
     [SerializeField]
+    private float elapsed1 = 0f;
+    [SerializeField]
     private float WaitTime = 1.5f;
 
     [Header("Touch Controls")]
@@ -48,8 +50,8 @@ public class TouchDrag : MonoBehaviour
     public GameObject Item1Button;
 
     [SerializeField] GameObject Meditation;
-
-    [SerializeField] GameObject ItemMenuText;
+    [SerializeField] GameObject MenuBack;
+   // [SerializeField] GameObject ItemMenuText;
     // Start is called before the first frame update
 
     private float introelapsed = 0f;
@@ -144,7 +146,7 @@ public class TouchDrag : MonoBehaviour
         {
 
             elapsed += Time.fixedDeltaTime;
-            if (elapsed > .8)
+            if (elapsed1 > .8)
             {
                 BrushController.SetTrigger("Brush");
                 PetAnim.SetBool("Brushing", true);
@@ -159,7 +161,7 @@ public class TouchDrag : MonoBehaviour
         else if (PetTrigger.GetComponent<Dog>().Brush == false)
         {
             PetAnim.SetBool("Brushing", false);
-            elapsed = 0;
+            elapsed1 = 0;
         }
     }
 
@@ -174,9 +176,10 @@ public class TouchDrag : MonoBehaviour
             Item1.SetActive(false);
             Item2.SetActive(false);
 
-            ItemMenuText.SetActive(false);
+           // ItemMenuText.SetActive(false);
 
-            Meditation.SetActive(true);
+           // Meditation.SetActive(true);
+            MenuBack.SetActive(true);
         }
         if (collision.CompareTag("Item1"))
         {
@@ -187,10 +190,11 @@ public class TouchDrag : MonoBehaviour
            Item.SetActive(false);
             Item2.SetActive(false);
 
-            ItemMenuText.SetActive(false);
+            //ItemMenuText.SetActive(false);
 
 
-            Meditation.SetActive(true);
+           // Meditation.SetActive(true);
+            MenuBack.SetActive(true);
         }
         if (collision.CompareTag("Item2"))
         {
@@ -201,10 +205,11 @@ public class TouchDrag : MonoBehaviour
             Item1.SetActive(false);
             Item.SetActive(false);
 
-            ItemMenuText.SetActive(false);
+           // ItemMenuText.SetActive(false);
 
 
-            Meditation.SetActive(true);
+           // Meditation.SetActive(true);
+            MenuBack.SetActive(true);
         }
 
     }
@@ -232,7 +237,7 @@ public class TouchDrag : MonoBehaviour
             Item1Button.SetActive(false);
 
 
-            ItemMenuText.SetActive(true);
+            //ItemMenuText.SetActive(true);
 
         }
         if (collision.CompareTag("Item1"))
@@ -254,7 +259,7 @@ public class TouchDrag : MonoBehaviour
             ItemButton.SetActive(true);
             Item1Button.SetActive(false);
 
-            ItemMenuText.SetActive(true);
+            //ItemMenuText.SetActive(true);
 
         }
         if (collision.CompareTag("Item2"))
@@ -274,7 +279,7 @@ public class TouchDrag : MonoBehaviour
             ItemButton.SetActive(true);
             Item1Button.SetActive(false);
 
-            ItemMenuText.SetActive(true);
+           // ItemMenuText.SetActive(true);
 
         }
 

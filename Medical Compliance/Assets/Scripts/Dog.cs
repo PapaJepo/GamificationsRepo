@@ -9,6 +9,9 @@ public class Dog : MonoBehaviour
     [SerializeField]
     private float elapsed2 = 0f;
 
+    [SerializeField] AudioSource BarkSFX;
+    [SerializeField] AudioClip BarkClip;
+
     public bool Treat;
     public bool Brush;
     [SerializeField] GameObject ButtonScript;
@@ -45,6 +48,7 @@ public class Dog : MonoBehaviour
         ButtonScript.GetComponent<Button>().enabled = false;
     }
 
+  
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -55,7 +59,7 @@ public class Dog : MonoBehaviour
             //if(elapsed>1)
             //{
                 Treat = true;
-            //    Debug.Log("Brush over Pet");
+                Debug.Log("Brush over Pet");
             //}
            
         }
@@ -89,5 +93,10 @@ public class Dog : MonoBehaviour
             Brush = false;
             Debug.Log("Brush gone");
         }
+    }
+
+    void Bark()
+    {
+        BarkSFX.PlayOneShot(BarkClip);
     }
 }

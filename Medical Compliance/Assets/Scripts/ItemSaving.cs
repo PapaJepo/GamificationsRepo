@@ -46,7 +46,7 @@ public class ItemSaving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetInt("ItemKey1"));
+        //Debug.Log(PlayerPrefs.GetInt("ItemKey1"));
     }
 
     public void DeletePurchaseHistory()
