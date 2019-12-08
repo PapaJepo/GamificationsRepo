@@ -23,6 +23,7 @@ public class TouchDrag : MonoBehaviour
 
     [Header("Item Animator")]
     public Animator TreatController;
+    public Animator BrushController;
     
 
     [Header("Interactable Items")]
@@ -134,6 +135,30 @@ public class TouchDrag : MonoBehaviour
         else if (PetTrigger.GetComponent<Dog>().Treat == false)
         {
             PetAnim.SetBool("Eating", false);
+            elapsed = 0;
+        }
+
+        //////////////
+        ///
+        if (PetTrigger.GetComponent<Dog>().Brush == true)
+        {
+
+            elapsed += Time.fixedDeltaTime;
+            if (elapsed > .8)
+            {
+                BrushController.SetTrigger("Brush");
+                PetAnim.SetBool("Brushing", true);
+            }
+
+
+        }
+
+
+
+        //elapsed = 0;
+        else if (PetTrigger.GetComponent<Dog>().Brush == false)
+        {
+            PetAnim.SetBool("Brushing", false);
             elapsed = 0;
         }
     }
