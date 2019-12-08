@@ -6,7 +6,6 @@ public class ItemAnim : MonoBehaviour
 {
    // public Animator TreatController;
     public GameObject Treat;
-    [SerializeField] GameObject MeditationButton;
     // Start is called before the first frame update
     void Start()
     {

@@ -145,11 +145,12 @@ public class TouchDrag : MonoBehaviour
         if (PetTrigger.GetComponent<Dog>().Brush == true)
         {
 
-            elapsed += Time.fixedDeltaTime;
+            elapsed1 += Time.fixedDeltaTime;
             if (elapsed1 > .8)
             {
-                BrushController.SetTrigger("Brush");
+                
                 PetAnim.SetBool("Brushing", true);
+                BrushController.SetBool("Brush", true);
             }
 
 
