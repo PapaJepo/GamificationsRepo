@@ -17,12 +17,18 @@ public class Currency : MonoBehaviour
     [SerializeField] GameObject Item1Button;
     [SerializeField] GameObject Item2Button;
     [SerializeField] GameObject Item3Button;
+
+    [SerializeField] GameObject SoldOut;
     private int Item1Save,Item2Save,Item3Save;
     
     // Start is called before the first frame update
     void Start()
     {
         CoinAmount = PlayerPrefs.GetInt("CoinKey");
+        if (PlayerPrefs.GetInt("ItemKey1") > 0 && PlayerPrefs.GetInt("ItemKey2") > 0 && PlayerPrefs.GetInt("ItemKey3") > 0)
+        {
+            SoldOut.SetActive(true);
+        }
     }
 
     // Update is called once per frame
@@ -44,6 +50,11 @@ public class Currency : MonoBehaviour
         {
             Item3Button.GetComponent<Button>().enabled = !true;
             Item3Text.text = "Purchased";
+        }
+
+        if(PlayerPrefs.GetInt("ItemKey1") > 0 && PlayerPrefs.GetInt("ItemKey2") > 0 && PlayerPrefs.GetInt("ItemKey3") > 0)
+        {
+            SoldOut.SetActive(true);
         }
     }
 
@@ -70,7 +81,7 @@ public class Currency : MonoBehaviour
         {
             CoinAmount = CoinAmount - 1;
             Item2Save++;
-            PlayerPrefs.SetInt("ItemKey2", Item3Save);
+            PlayerPrefs.SetInt("ItemKey2", Item2Save);
 
         }
 
