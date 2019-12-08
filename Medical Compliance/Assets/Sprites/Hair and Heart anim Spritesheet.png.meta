@@ -1,0 +1,2283 @@
+fileFormatVersion: 2
+guid: c6422459aef5dc64fae4a1797cdb4444
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3700071434118047169
+    second: Hair and Heart anim Spritesheet_0
+  - first:
+      213: 6160101282524030852
+    second: Hair and Heart anim Spritesheet_1
+  - first:
+      213: 5028308680281086351
+    second: Hair and Heart anim Spritesheet_2
+  - first:
+      213: 7151034283673971008
+    second: Hair and Heart anim Spritesheet_3
+  - first:
+      213: 6952952198013412737
+    second: Hair and Heart anim Spritesheet_4
+  - first:
+      213: 2061975813953266428
+    second: Hair and Heart anim Spritesheet_5
+  - first:
+      213: 2784528600170471717
+    second: Hair and Heart anim Spritesheet_6
+  - first:
+      213: 7795212766043444955
+    second: Hair and Heart anim Spritesheet_7
+  - first:
+      213: -6319471548922994886
+    second: Hair and Heart anim Spritesheet_8
+  - first:
+      213: -3242842611645137662
+    second: Hair and Heart anim Spritesheet_9
+  - first:
+      213: -5444459746032737771
+    second: Hair and Heart anim Spritesheet_10
+  - first:
+      213: 824718535913343641
+    second: Hair and Heart anim Spritesheet_11
+  - first:
+      213: -5930188451978744504
+    second: Hair and Heart anim Spritesheet_12
+  - first:
+      213: -5222417672746852999
+    second: Hair and Heart anim Spritesheet_13
+  - first:
+      213: -8908720436389711965
+    second: Hair and Heart anim Spritesheet_14
+  - first:
+      213: -3882646283678290451
+    second: Hair and Heart anim Spritesheet_15
+  - first:
+      213: -3821423009814197584
+    second: Hair and Heart anim Spritesheet_16
+  - first:
+      213: -928135167377040578
+    second: Hair and Heart anim Spritesheet_17
+  - first:
+      213: 7784424746956038219
+    second: Hair and Heart anim Spritesheet_18
+  - first:
+      213: 8662167704008449075
+    second: Hair and Heart anim Spritesheet_19
+  - first:
+      213: 7839322057204739459
+    second: Hair and Heart anim Spritesheet_20
+  - first:
+      213: -8451304328621550577
+    second: Hair and Heart anim Spritesheet_21
+  - first:
+      213: -5076345845276799235
+    second: Hair and Heart anim Spritesheet_22
+  - first:
+      213: 8544184451944265753
+    second: Hair and Heart anim Spritesheet_23
+  - first:
+      213: -8511896618623953370
+    second: Hair and Heart anim Spritesheet_24
+  - first:
+      213: -1156205131780535482
+    second: Hair and Heart anim Spritesheet_25
+  - first:
+      213: -8227764951611201428
+    second: Hair and Heart anim Spritesheet_26
+  - first:
+      213: -9032432985522797774
+    second: Hair and Heart anim Spritesheet_27
+  - first:
+      213: -2170889664430625743
+    second: Hair and Heart anim Spritesheet_28
+  - first:
+      213: 547975965757531944
+    second: Hair and Heart anim Spritesheet_29
+  - first:
+      213: -5671239326372215503
+    second: Hair and Heart anim Spritesheet_30
+  - first:
+      213: 8941434046771446910
+    second: Hair and Heart anim Spritesheet_31
+  - first:
+      213: 6150648222954119633
+    second: Hair and Heart anim Spritesheet_32
+  - first:
+      213: 1860743223491585193
+    second: Hair and Heart anim Spritesheet_33
+  - first:
+      213: -3171312152879887911
+    second: Hair and Heart anim Spritesheet_34
+  - first:
+      213: -900810339640667118
+    second: Hair and Heart anim Spritesheet_35
+  - first:
+      213: -4719942535512100626
+    second: Hair and Heart anim Spritesheet_36
+  - first:
+      213: 4319756010169373128
+    second: Hair and Heart anim Spritesheet_37
+  - first:
+      213: -2147570420155410528
+    second: Hair and Heart anim Spritesheet_38
+  - first:
+      213: -8986298344420252824
+    second: Hair and Heart anim Spritesheet_39
+  - first:
+      213: -5908509953680241029
+    second: Hair and Heart anim Spritesheet_40
+  - first:
+      213: 8225026252653234553
+    second: Hair and Heart anim Spritesheet_41
+  - first:
+      213: 7118942083575744463
+    second: Hair and Heart anim Spritesheet_42
+  - first:
+      213: 47053689877231830
+    second: Hair and Heart anim Spritesheet_43
+  - first:
+      213: -4697837028945946604
+    second: Hair and Heart anim Spritesheet_44
+  - first:
+      213: -6293608591774752372
+    second: Hair and Heart anim Spritesheet_45
+  - first:
+      213: 3294447741456967456
+    second: Hair and Heart anim Spritesheet_46
+  - first:
+      213: -3366612456887300105
+    second: Hair and Heart anim Spritesheet_47
+  - first:
+      213: -2641534709701858808
+    second: Hair and Heart anim Spritesheet_48
+  - first:
+      213: 8395409608981210262
+    second: Hair and Heart anim Spritesheet_49
+  - first:
+      213: 146682980425785095
+    second: Hair and Heart anim Spritesheet_50
+  - first:
+      213: 8121833095270042778
+    second: Hair and Heart anim Spritesheet_51
+  - first:
+      213: 2114848951368254797
+    second: Hair and Heart anim Spritesheet_52
+  - first:
+      213: -5921794580303751984
+    second: Hair and Heart anim Spritesheet_53
+  - first:
+      213: 6493311978371234654
+    second: Hair and Heart anim Spritesheet_54
+  - first:
+      213: 1681467276279187934
+    second: Hair and Heart anim Spritesheet_55
+  - first:
+      213: 5005399891722243067
+    second: Hair and Heart anim Spritesheet_56
+  - first:
+      213: -1563705126546876528
+    second: Hair and Heart anim Spritesheet_57
+  - first:
+      213: 6950954867066314891
+    second: Hair and Heart anim Spritesheet_58
+  - first:
+      213: -48127197332955981
+    second: Hair and Heart anim Spritesheet_59
+  - first:
+      213: -1939862031500448428
+    second: Hair and Heart anim Spritesheet_60
+  - first:
+      213: 4957160820833287063
+    second: Hair and Heart anim Spritesheet_61
+  - first:
+      213: -3427065885771613317
+    second: Hair and Heart anim Spritesheet_62
+  - first:
+      213: 5731389076389754754
+    second: Hair and Heart anim Spritesheet_63
+  - first:
+      213: 4409760664290169051
+    second: Hair and Heart anim Spritesheet_64
+  - first:
+      213: 9132328996572561050
+    second: Hair and Heart anim Spritesheet_65
+  - first:
+      213: 5285529170993668690
+    second: Hair and Heart anim Spritesheet_66
+  - first:
+      213: 8533618887503449593
+    second: Hair and Heart anim Spritesheet_67
+  - first:
+      213: -5318488929614145165
+    second: Hair and Heart anim Spritesheet_68
+  - first:
+      213: 7160806325506376053
+    second: Hair and Heart anim Spritesheet_69
+  - first:
+      213: -3587272770564697949
+    second: Hair and Heart anim Spritesheet_70
+  - first:
+      213: -4587966012004261128
+    second: Hair and Heart anim Spritesheet_71
+  - first:
+      213: -2967420786068602563
+    second: Hair and Heart anim Spritesheet_72
+  - first:
+      213: -3876785940211391962
+    second: Hair and Heart anim Spritesheet_73
+  - first:
+      213: -4663633008675963824
+    second: Hair and Heart anim Spritesheet_74
+  - first:
+      213: 3558445373407662477
+    second: Hair and Heart anim Spritesheet_75
+  - first:
+      213: 3329706475394515681
+    second: Hair and Heart anim Spritesheet_76
+  - first:
+      213: 8814658669081273909
+    second: Hair and Heart anim Spritesheet_77
+  - first:
+      213: 7275413512923279892
+    second: Hair and Heart anim Spritesheet_78
+  - first:
+      213: 9124864636497040667
+    second: Hair and Heart anim Spritesheet_79
+  - first:
+      213: 8897823801841209626
+    second: Hair and Heart anim Spritesheet_80
+  - first:
+      213: 2587634553169550985
+    second: Hair and Heart anim Spritesheet_81
+  - first:
+      213: 3494820192731609393
+    second: Hair and Heart anim Spritesheet_82
+  - first:
+      213: 6977002383573036410
+    second: Hair and Heart anim Spritesheet_83
+  - first:
+      213: -6728214002334058344
+    second: Hair and Heart anim Spritesheet_84
+  - first:
+      213: 6900595907568557197
+    second: Hair and Heart anim Spritesheet_85
+  - first:
+      213: 300057358527989829
+    second: Hair and Heart anim Spritesheet_86
+  - first:
+      213: 1280420132418252251
+    second: Hair and Heart anim Spritesheet_87
+  - first:
+      213: -4523732115865822718
+    second: Hair and Heart anim Spritesheet_88
+  - first:
+      213: 1937675747099993440
+    second: Hair and Heart anim Spritesheet_89
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1214
+        width: 56
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17e6c9020ca9594d813c4d8699857ef
+      internalID: -3700071434118047169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1128
+        width: 233
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ec22c28ec85d44c8ee5d78c0cb3a1d
+      internalID: 6160101282524030852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1241
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fb0176e9d337448a39678470e12d98
+      internalID: 5028308680281086351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1247
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ac99dc7a32add4db0879ef6288d5bf
+      internalID: 7151034283673971008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1237
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc19f524dcdd84b9d8e56176ec37cc
+      internalID: 6952952198013412737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1208
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d89b8e031337fb47b5234d18f8b7591
+      internalID: 2061975813953266428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1153
+        width: 141
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959114b4b0e6f6249a6c6e32e8628fae
+      internalID: 2784528600170471717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1139
+        width: 180
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e235cafeb87bb47b3dbb227696b568
+      internalID: 7795212766043444955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1183
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89874721a04ed74c8bed2328c1847da
+      internalID: -6319471548922994886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1200
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37d5d4f5adaedd43826fe1685c0c710
+      internalID: -3242842611645137662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1198
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c69e6ae8a0cb546ae752c145a6c092
+      internalID: -5444459746032737771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1214
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cfe1f0a83ca894d8c036616a3d15a2
+      internalID: 824718535913343641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1206
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f09bfd6df4bc534caa6d7bff5ca4b4b
+      internalID: -5930188451978744504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1197
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab209e069027b7f4091590abc7e36b48
+      internalID: -5222417672746852999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1165
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a1e48dd00ea564a9fed0e99f4858f3
+      internalID: -8908720436389711965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1178
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05301ca16f5d061449235e60d2ea41d1
+      internalID: -3882646283678290451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1182
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0a81482e337934889bf693e18af88e
+      internalID: -3821423009814197584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4590389e6b9f6874d80680328227e94c
+      internalID: -928135167377040578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1185
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c278f6f3b76cb464993d571f39548d8d
+      internalID: 7784424746956038219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1193
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd3ac3f041210344ae69d6602bd0538
+      internalID: 8662167704008449075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1181
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f770e530a54133246a88b1028ec71342
+      internalID: 7839322057204739459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1191
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c428158b33ac54248bab994911dae9ba
+      internalID: -8451304328621550577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1182
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc63853ed97122b45bfb0dc7e608fb63
+      internalID: -5076345845276799235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1179
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaafea993569a8b4da0e97943b83ef5c
+      internalID: 8544184451944265753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1192
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4085d8bfd789d35459a6e6074c656992
+      internalID: -8511896618623953370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1191
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0075af362f69a469a1bf0b611a7b7f
+      internalID: -1156205131780535482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1115
+        width: 262
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e77cc1e6403f449a4b70bec1c81b5
+      internalID: -8227764951611201428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 935
+        width: 242
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7172c95a0438a7a46a3ab8bbfd205191
+      internalID: -9032432985522797774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1150
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc43c70fd2092814b8b80e7be9496420
+      internalID: -2170889664430625743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1181
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8d98a579498c041bc6360147996bc5
+      internalID: 547975965757531944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1174
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b908556f4f9fa4d8cf63824fc8aad5
+      internalID: -5671239326372215503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1156
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ec85add7475cc4699b8371bd753a33
+      internalID: 8941434046771446910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1148
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87333072e53ab35419c9b056a40c8e79
+      internalID: 6150648222954119633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1144
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc3d080e3f06d04b8cdd181f4b0ac92
+      internalID: 1860743223491585193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1136
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6667346dc594645a9a5ccd64d5a967
+      internalID: -3171312152879887911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1138
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1673610a5d5002f4abdc0bea1424cfe3
+      internalID: -900810339640667118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1129
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52d40dc72439df48b66e9bf3a829f99
+      internalID: -4719942535512100626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 993
+        width: 160
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e079c9bd292f94386b99e26361fc3c
+      internalID: 4319756010169373128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1055
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ff5cd00aa546540b8b238c7efd964b
+      internalID: -2147570420155410528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 986
+        width: 192
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b5da44063a8ea4780e7de30032da7c
+      internalID: -8986298344420252824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1062
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63ab068be8aefb42ad18a3362ee2174
+      internalID: -5908509953680241029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 951
+        width: 243
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b30984c30bf034280d7aff592c647f
+      internalID: 8225026252653234553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1071
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a97eebac7ce1747986751a25df76c2
+      internalID: 7118942083575744463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 947
+        width: 283
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b55f853886cea409a641042cd17f7e
+      internalID: 47053689877231830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1068
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142fedac9a351f04ab2a212501b84388
+      internalID: -4697837028945946604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1025
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7de884c8b78214489de6935f1aa8c68
+      internalID: -6293608591774752372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1012
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2777c26fa4aea46af3650e2bbd46dc
+      internalID: 3294447741456967456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1028
+        width: 43
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2da88535cd657408b5625ebd75103c
+      internalID: -3366612456887300105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1024
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3a205dab01a474cb241557f952c280
+      internalID: -2641534709701858808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1022
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97282d44398887942892a370f7c9b6b7
+      internalID: 8395409608981210262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1026
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4741f8338cc3dd4e8b3f0cfbfc9231f
+      internalID: 146682980425785095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1029
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a35bd09b206c4aa8c0d7ef44995bc
+      internalID: 8121833095270042778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1014
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184713d62fee28640ad0df62384a7468
+      internalID: 2114848951368254797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1034
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba62a8db2cff644baf187192ce68333
+      internalID: -5921794580303751984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1012
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce4f0d6835c4ac46b60815e35e02a5c
+      internalID: 6493311978371234654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1018
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152ad32987d62d4479fb8d6b4a44fa25
+      internalID: 1681467276279187934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1027
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fea400c243fa76498f4172b368417ea
+      internalID: 5005399891722243067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1002
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c513a6bc2ef1d984fb46e07ef1222534
+      internalID: -1563705126546876528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1034
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6614df432b680554ebb4b9f6578f3d82
+      internalID: 6950954867066314891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 993
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f755ff0450b43df4e93b227d95a4e209
+      internalID: -48127197332955981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1020
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5357588e90f6d64497bd8fbf134f982
+      internalID: -1939862031500448428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1022
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b45e45d5f0e844caecb65030d85e71
+      internalID: 4957160820833287063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1012
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb864bd9bcbe44d92cd371237c6eeb
+      internalID: -3427065885771613317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1014
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f8c852ec298184abd568028a24d9f1
+      internalID: 5731389076389754754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 995
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15dc9cac84e16741a89f6da2ceee3b6
+      internalID: 4409760664290169051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1003
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e50b9c0f09b47a499edbdfdebd80c7b
+      internalID: 9132328996572561050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1011
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9132363a2e5bbc42ad8a0cf5dbb8d32
+      internalID: 5285529170993668690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 990
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3018fb6eec5be8f4897347319e92d1e1
+      internalID: 8533618887503449593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 972
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65196ab4bf600604fb5d3bc881a0377a
+      internalID: -5318488929614145165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 995
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15decac2dbea4c440aa48e46001e3632
+      internalID: 7160806325506376053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 965
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1097c227dd9a64a43bfb092b20b29747
+      internalID: -3587272770564697949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 950
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34116085e4566c4399d3c31ca7d8578
+      internalID: -4587966012004261128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 959
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbac21d35157e3b459e060a1db32fc88
+      internalID: -2967420786068602563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 554
+        width: 113
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c4020feb5aa8444b05d1b00ef58f2d
+      internalID: -3876785940211391962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 556
+        width: 113
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad819321e130e7409874221621e0f8a
+      internalID: -4663633008675963824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 565
+        width: 154
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc855a74ae319344ba4109c62d82855f
+      internalID: 3558445373407662477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 564
+        width: 155
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e4d305b323bd46ba7b34e41b3a52d
+      internalID: 3329706475394515681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 576
+        width: 197
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59590e8049321f4e95b84f867b163d9
+      internalID: 8814658669081273909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 576
+        width: 197
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3117d6ec11b5354bacd38d34d661345
+      internalID: 7275413512923279892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 354
+        width: 128
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3cda9370ec284ea9443b9d0b00f70
+      internalID: 9124864636497040667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 312
+        width: 201
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470e5b1c22920c4da93e4a7bdc63942
+      internalID: 8897823801841209626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 311
+        width: 199
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8fbd548dd95df40a42a9a6b2f209e4
+      internalID: 2587634553169550985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 296
+        width: 200
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb9dc1d0df5e9346bf0b2d7881ddf81
+      internalID: 3494820192731609393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 301
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba9bc3ad7097894283f0f7e12ddcf91
+      internalID: 6977002383573036410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 212
+        width: 127
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd43c75e0f183d4fb003a13ad444591
+      internalID: -6728214002334058344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 68
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f0fd3824cd641418b9425dc7093dc9
+      internalID: 6900595907568557197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 23
+        width: 207
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175ea7919dfa144f9c20b690cc1fff4
+      internalID: 300057358527989829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 22
+        width: 207
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2be443db422df48a6ff8e1a674df71
+      internalID: 1280420132418252251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 11
+        width: 212
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6735ccd3ae6b98a4fb9d8f3ceaf193ab
+      internalID: -4523732115865822718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair and Heart anim Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 10
+        width: 212
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53f4dbec36a7f45b738f015e59f235
+      internalID: 1937675747099993440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4ff449410073c4e4ea4cb1e3b1521145
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
