@@ -14,6 +14,7 @@ public class Dog : MonoBehaviour
 
     public bool Treat;
     public bool Brush;
+    public bool Pet;
     [SerializeField] GameObject ButtonScript;
 
     [SerializeField] GameObject UI;
@@ -59,22 +60,29 @@ public class Dog : MonoBehaviour
             //if(elapsed>1)
             //{
                 Treat = true;
-                Debug.Log("Treat over Pet");
+                //Debug.Log("Treat over Pet");
             //}
            
         }
 
-        if (collision.CompareTag("Item"))
+        else if (collision.CompareTag("Item"))
         {
             //elapsed = 0;
             // elapsed += Time.fixedDeltaTime;
             //if(elapsed>1)
             //{
             Brush = true;
-            Debug.Log("Brush over Pet");
+           Debug.Log("Brush over Pet");
             //}
 
         }
+
+       /* else if(collision.CompareTag("Finger") )
+        {
+            Debug.Log("Petting");
+            Pet = true;
+        }*/
+     
 
     }
 
@@ -93,6 +101,12 @@ public class Dog : MonoBehaviour
             Brush = false;
             Debug.Log("Brush gone");
         }
+        if (collision.CompareTag("Finger"))
+        {
+            Debug.Log("Petting");
+            Pet = false;
+        }
+
     }
 
     void Bark()

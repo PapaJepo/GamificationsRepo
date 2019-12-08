@@ -148,7 +148,7 @@ public class TouchDrag : MonoBehaviour
             elapsed1 += Time.fixedDeltaTime;
             if (elapsed1 > .8)
             {
-                
+                Debug.Log("PLayAnim");
                 PetAnim.SetBool("Brushing", true);
                 BrushController.SetBool("Brush", true);
             }
@@ -164,13 +164,35 @@ public class TouchDrag : MonoBehaviour
             PetAnim.SetBool("Brushing", false);
             elapsed1 = 0;
         }
+
+       /* if (PetTrigger.GetComponent<Dog>().Pet == true)
+        {
+
+            elapsed1 += Time.fixedDeltaTime;
+            if (elapsed1 > .85f)
+            {
+
+                PetAnim.SetBool("Petting", true);
+            }
+
+
+        }
+
+
+
+        //elapsed = 0;
+        else if (PetTrigger.GetComponent<Dog>().Pet == false)
+        {
+            PetAnim.SetBool("Petting", false);
+            elapsed1 = 0;
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Item"))
         {
-            Debug.Log("itemtouch");
+            //Debug.Log("itemtouch");
             itemcheck = true;
             Pet.SetActive(true);
             ItemHolder.SetActive(false);
@@ -184,7 +206,7 @@ public class TouchDrag : MonoBehaviour
         }
         if (collision.CompareTag("Item1"))
         {
-            Debug.Log("itemtouch");
+            //Debug.Log("itemtouch");
             itemcheck1 = true;
             Pet.SetActive(true);
             ItemHolder.SetActive(false);
@@ -199,7 +221,7 @@ public class TouchDrag : MonoBehaviour
         }
         if (collision.CompareTag("Item2"))
         {
-            Debug.Log("itemtouch");
+           // Debug.Log("itemtouch");
             itemcheck2 = true;
             Pet.SetActive(true);
             ItemHolder.SetActive(false);

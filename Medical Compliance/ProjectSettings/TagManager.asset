@@ -11,6 +11,7 @@ TagManager:
   - Coin
   - FallDetector
   - Item2
+  - Finger
   layers:
   - Default
   - TransparentFX
