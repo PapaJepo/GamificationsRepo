@@ -54,6 +54,7 @@ public class ItemSaving : MonoBehaviour
         PlayerPrefs.SetInt("ItemKey1", 0);
         PlayerPrefs.SetInt("ItemKey2", 0);
         PlayerPrefs.SetInt("ItemKey3", 0);
+
     }
 
     public void PurchaseSave()
