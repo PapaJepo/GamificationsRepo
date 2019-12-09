@@ -32,7 +32,7 @@ public class TouchDrag : MonoBehaviour
     [Header("Interactable Items")]
     public GameObject Item;
     public GameObject Item1;
-    public GameObject Item2;
+    //public GameObject Item2;
 
     private bool itemcheck;
     private bool itemcheck1;
@@ -105,10 +105,10 @@ public class TouchDrag : MonoBehaviour
             {
                 Item1.transform.position = touch1position;
             }
-            if (itemcheck2 == true)
+            /*if (itemcheck2 == true)
             {
                 Item2.transform.position = touch1position;
-            }
+            }*/
         }
         else
         {
@@ -198,7 +198,7 @@ public class TouchDrag : MonoBehaviour
             Pet.SetActive(true);
             ItemHolder.SetActive(false);
             Item1.SetActive(false);
-            Item2.SetActive(false);
+            //Item2.SetActive(false);
 
            // ItemMenuText.SetActive(false);
 
@@ -212,7 +212,7 @@ public class TouchDrag : MonoBehaviour
             Pet.SetActive(true);
             ItemHolder.SetActive(false);
            Item.SetActive(false);
-            Item2.SetActive(false);
+            //Item2.SetActive(false);
 
             //ItemMenuText.SetActive(false);
 
@@ -220,22 +220,24 @@ public class TouchDrag : MonoBehaviour
            // Meditation.SetActive(true);
             MenuBack.SetActive(true);
         }
+        /*
         if (collision.CompareTag("Item2"))
         {
            // Debug.Log("itemtouch");
-            itemcheck2 = true;
-            Pet.SetActive(true);
+            //itemcheck2 = true;
+            //Pet.SetActive(true);
             ItemHolder.SetActive(false);
-            Item1.SetActive(false);
-            Item.SetActive(false);
+            //Item1.SetActive(false);
+            //Item.SetActive(false);
+            Item2.SetActive(true);
 
            // ItemMenuText.SetActive(false);
 
 
            // Meditation.SetActive(true);
-            MenuBack.SetActive(true);
-        }
-
+            //MenuBack.SetActive(true);
+        }*/
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -247,7 +249,7 @@ public class TouchDrag : MonoBehaviour
             Item1.SetActive(true);
             if(PlayerPrefs.GetInt("ItemKey1") > 0)
             {
-                Item2.SetActive(true);
+                //Item2.SetActive(true);
             }
             //
             ItemHolder.SetActive(true);
@@ -271,7 +273,7 @@ public class TouchDrag : MonoBehaviour
             Item.SetActive(true);
             if (PlayerPrefs.GetInt("ItemKey1") > 0)
             {
-                Item2.SetActive(true);
+                //Item2.SetActive(true);
             }
             //
             ItemHolder.SetActive(true);
@@ -286,6 +288,7 @@ public class TouchDrag : MonoBehaviour
             //ItemMenuText.SetActive(true);
 
         }
+        /*
         if (collision.CompareTag("Item2"))
         {
            // Pet.SetActive(false);
@@ -305,7 +308,7 @@ public class TouchDrag : MonoBehaviour
 
            // ItemMenuText.SetActive(true);
 
-        }
+        }*/
 
 
         ////////////////////

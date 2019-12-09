@@ -24,7 +24,7 @@ public class ItemSaving : MonoBehaviour
         {
             //Item.transform.position = ItemPos.transform.position;
             Object1.SetActive(true);
-            Object1.transform.position = Object1Pos.transform.position;
+           // Object1.transform.position = Object1Pos.transform.position;
         }
 
         if (PlayerPrefs.GetInt("ItemKey2") > 0)
@@ -47,6 +47,12 @@ public class ItemSaving : MonoBehaviour
     void Update()
     {
         //Debug.Log(PlayerPrefs.GetInt("ItemKey1"));
+        if (PlayerPrefs.GetInt("ItemKey1") > 0)
+        {
+            //Item.transform.position = ItemPos.transform.position;
+            Object1.SetActive(true);
+            // Object1.transform.position = Object1Pos.transform.position;
+        }
     }
 
     public void DeletePurchaseHistory()
@@ -63,7 +69,7 @@ public class ItemSaving : MonoBehaviour
         {
             //Item.transform.position = ItemPos.transform.position;
             Object1.SetActive(true);
-            Object1.transform.position = Object1Pos.transform.position;
+            //Object1.transform.position = Object1Pos.transform.position;
         }
         if (PlayerPrefs.GetInt("ItemKey2") > 0)
         {

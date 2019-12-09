@@ -32,6 +32,7 @@ public class MeditationCircle : MonoBehaviour
     private int once = 0;
     private int identifier;
 
+
     [SerializeField] float timer = 20;
     float posX, posY;
     // Start is called before the first frame update
@@ -197,7 +198,9 @@ public class MeditationCircle : MonoBehaviour
 
     public void HidePopUp()
     {
-        CoinAmount = CoinAmount + 10;
+
+        
+        CoinAmount = CoinAmount + 1;
         PlayerPrefs.SetInt("CoinKey", CoinAmount);
         angle = 0f;
         popup = false;
