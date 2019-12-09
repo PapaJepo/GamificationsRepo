@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     private int GameStart;
     public GameObject StartMenu;
+    [SerializeField] GameObject Dog;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,9 +32,11 @@ public class MainMenu : MonoBehaviour
         if (PlayerPrefs.GetInt("GameStartKey") < 2)
         {
             StartMenu.SetActive(true);
+            Dog.SetActive(true);
         }
         else
         {
+            Dog.SetActive(false);
             LoadGame();
         }
     }
