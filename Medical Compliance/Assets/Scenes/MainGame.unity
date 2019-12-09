@@ -14978,7 +14978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CoinTest: {fileID: 947108639}
-  CoinAmount: 0
+  CoinAmount: 4
   Item1Text: {fileID: 1940060637}
   Item2Text: {fileID: 1447004976}
   Item3Text: {fileID: 1181323380}
